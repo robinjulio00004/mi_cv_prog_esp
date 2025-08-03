@@ -36,9 +36,9 @@
 		<!-- Scene. -->
            <a-marker type="pattern" url="open_file.patt" raycaster="objects: .clickable" emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="marcador">
 		<a-entity sound="src: #audio;"></a-entity>
-		<a-video src="#evideo" scale="0.24 0.22 0.22" position="0 0.02 -0.56" rotation="-90 0 0" width="2.5" height="1.5" color="#FFFFFF"></a-video>
 	       	<a-entity class="clickable" gesture-handler="minScale: 1.5; maxScale: 8" gltf-model="#glb_model1" scale="1 1 1" position="0 0 0" rotation="0 0 0">
-		<a-entity gltf-model="#glb_model2" scale="1 1 1" position="0 0.03 0" rotation="0 0 0">	       
+		<a-entity gltf-model="#glb_model2" scale="1 1 1" position="0 0.03 0" rotation="0 0 0">	
+		<a-video src="#evideo" scale="0.24 0.22 0.22" position="0 0.02 -0.56" rotation="-90 0 0" width="2.5" height="1.5" color="#FFFFFF"></a-video>
                	</a-entity
 		</a-entity>	
 	   </a-marker> 
@@ -107,3 +107,4 @@ function goURL6()
 	</script>
 
 </html>
+
